@@ -5,7 +5,7 @@ self.addEventListener("install", function(e) {
         "./",
         "./index.html",
         "./style.css",
-        "./script.js",
+        ".script-eden-api-offuscato.js",
         "./icon-192.png",
         "./icon-512.png"
       ]);
