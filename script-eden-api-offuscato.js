@@ -45,3 +45,6 @@ function connectToAlpaca() {
 }
 
 document.getElementById("connectButton")?.addEventListener("click", connectToAlpaca);
+document.getElementById("startButton").addEventListener("click", function () {
+  window.location.href = "dashboard.html"; // o la pagina reale della dashboard
+});
